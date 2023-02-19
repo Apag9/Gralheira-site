@@ -1,14 +1,14 @@
-import Head from 'next/head';
+import Navbar from '../components/Navbar.js'
 
-function Paginainicial() {
+import styles from '../pages/index.module.css'
+
+const Home = () => {
   return (
     <div>
-      <Head>
-        <title>Pagina Inicial</title>
-      </Head>
-      <h1 className='titulo'>Conteúdo da Minha Página</h1>
+        <Navbar />
+        <h1 className={styles.bigtitle}>Explore os Encantos Naturais da Gralheira</h1>
     </div>
-  );
+  )
 }
 
-export default Paginainicial ;
+export default Home
