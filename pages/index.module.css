@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.button1 {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+}
+.button1:hover {
+  background-color: transparent;
+  border: 2px solid #4CAF50;
+  transform: scale(1.1);
+  color: #4CAF50;
+}
+
+.bigtitle {
+  margin-top: 100px;
+  font-size: 100px;
+  transition: 0.5s ease;
+  color: white;
+  text-align: center;
+}
+
+.bigtitle:hover {
+  -webkit-text-stroke: 4px white;
+  color: transparent;
+}

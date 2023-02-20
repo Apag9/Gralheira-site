@@ -19,6 +19,12 @@ const Navbar = () => {
         </li>
         
         <li>
+          <Link href="/costumes" >
+            <p>Usos e Costumes</p>
+          </Link>
+        </li>
+        
+        <li>
           <Link href="/establecimentos" >
             <p>Establecimentos</p>
           </Link>
@@ -29,12 +35,6 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li>
-          <Link href="/Eventos" >
-            <p>Eventos</p>
-          </Link>
-        </li>
-        
       </ul>
     </nav>
   )
