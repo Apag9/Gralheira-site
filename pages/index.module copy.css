@@ -1,0 +1,11 @@
+
+.bigtitle {
+  font-size: 100px;
+  text-align: center;
+}
+.container {
+    background-image:'../IMG_20230118_131454.jpg' ;
+    background-size: cover;
+    background-position: center;
+
+}

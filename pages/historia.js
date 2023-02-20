@@ -8,6 +8,7 @@ const historia = () => {
         <div>
             <Navbar />
             <div className={styles.historiabox}>
+                <h1 className={styles.title}>Explorando a História da Gralheira: Descubra os Segredos da Região</h1>
                 <p className={styles.historiatext}>A Freguesia da Gralheira fica localizada na Serra de Montemuro, na vertente norte, e é conhecida como a "Princesa da Serra".
                 É considerada a mais progressiva e desenvolvida entre as freguesias das encostas da montanha.
                 Embora pertença ao concelho de Cinfães, está mais ligada a Castro Daire pelas vias de comunicação e proximidade das povoações. A paisagem ao redor é deslumbrante, embora bravia, com montanhas e planaltos, e campos verdejantes no fundo dos vales. 
